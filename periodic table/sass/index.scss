@@ -1,0 +1,34 @@
+@import "colors";
+@import "elementspositions";
+@import "info";
+@import "table";
+@import "types";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $background1;
+}
+
+main {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: $primarycolor;
+}
+
+#title {
+  color: $primarycolor;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+h1 {
+  text-transform: capitalize;
+  text-align: center;
+}
